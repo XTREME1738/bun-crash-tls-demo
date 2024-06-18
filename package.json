@@ -1,0 +1,18 @@
+{
+  "name": "bun-demo",
+  "module": "src/demo.ts",
+  "scripts": {
+    "dev": "bun src/demo.ts"
+  },
+  "devDependencies": {
+    "@types/bun": "latest",
+    "@types/pg": "^8.11.6",
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "type": "module",
+  "dependencies": {
+    "pg": "^8.12.0",
+  }
+}
