@@ -8,7 +8,8 @@ const pgConfig = {
   user: 'demo',
   password: 'demopass',
   ssl: {
-    rejectUnauthorized: true
+    rejectUnauthorized: true,
+    ca: '' // override the CA certificate
   }
 };
 
